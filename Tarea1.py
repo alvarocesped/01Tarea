@@ -18,7 +18,7 @@ flujob=flujo*100
 
 #Graficamos
 semilogx(longitudb,flujob)
-xlabel('$Longitud\; de\; onda\; (\lambda) \;[\AA^{-1}]$')
+xlabel('$Longitud\; de\; onda\; (\lambda) \;[\AA]$')
 ylabel('$Flujo\; [ergs\cdot s^{-1} \cdot cm^{-2} \cdot \AA^{-1}]$')
 title('Espectro solar')
 grid(True)
