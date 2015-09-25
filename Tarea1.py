@@ -97,7 +97,7 @@ print "Radio solar estimado="+str(r)+" metros"
 
 #Luminosidad calculada con el método "trapz"
 t0=time.time()
-Luminosidad4=np.trapz(longitudb,x=flujob)*4*np.pi*UA**2
+Luminosidad4=np.trapz(flujob,x=longitudb)*4*np.pi*UA**2
 tf=time.time()
 
 print "Luminosidad parte 4=" + str(Luminosidad4) + "Erg/s"
